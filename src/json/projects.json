@@ -23,6 +23,14 @@
             "type": "Wordpress",
             "description": "A Wordpress website I made for a school project. From this site a video project can also be accessed which was edited by me, using Adobe.",
             "link": "https://focusrecovery.wordpress.com"
+        },
+        {
+            "id": 4,
+            "image": "../images/github-grey.png",
+            "title": "GitHub",
+            "type": "Repositories",
+            "description": "For more projects I completed, take a look at my GitHub. Here, more backend projects can be found.",
+            "link": "https://github.com/benbogd4n"
         }
     ]
 }

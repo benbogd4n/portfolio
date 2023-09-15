@@ -12,15 +12,10 @@ export default {
             <h1>BOGDAN</h1>
         </div>
         <div class="title-description">
-            <p>I am working on becoming a Frontend Developer using 
-                <span style="color: rgb(252, 61, 61); font-weight: bold;">HTML</span>, 
-                <span style="color: rgb(0, 129, 215); font-weight: bold;">CSS</span>, 
-                <span style="color: rgb(236, 153, 1); font-weight: bold;">JavaScript</span> and 
-                <span style="color: rgb(6, 175, 29); font-weight: bold;">Vue.js</span> with additional experience in editing and design using Adobe Suite.
-            </p>
+            <p>I am currently working on developing myself and my skills to become a valuable <span style="color: #646cff; font-weight: bold;">IT professional.</span></p>
         </div>
         <div class="title-about">
-            <router-link to="/about"><button>Tell me more about yourself...</button></router-link>
+            <router-link to="/about"><button>More about me...</button></router-link>
         </div>
     </div>
     <div class="title-image">

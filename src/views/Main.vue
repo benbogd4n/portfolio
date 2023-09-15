@@ -49,9 +49,9 @@ export default {
 <Title v-if="showTitle"/>
 </transition>
 <div class="buttons">
-    <button @click="toggleExperience">Show me your experience</button>
-    <button @click="toggleTitle" v-if="!showTitle">Take me home</button>
-    <button @click="toggleProjects">Show me your projects</button>
+    <button @click="toggleExperience">Experiences</button>
+    <button @click="toggleTitle" v-if="!showTitle">Home</button>
+    <button @click="toggleProjects">Projects</button>
 </div>
 <transition name="exp">
     <Experience v-if="showExperience"/>
