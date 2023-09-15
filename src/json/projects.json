@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "image": "esp-card.png",
+            "title": "ESP Inside",
+            "type": "Glide app",
+            "description": "This is part of an educational Glide app where I was asked to create a filterable search, that tracks courses, equipment and more.",
+            "link": "https://search-demo-cyfb.glideapp.io/dl/17171d"
+        },
+        {
+            "id": 2,
+            "image": "bookit-card.jpg",
+            "title": "BookIT",
+            "type": "Wordpress",
+            "description": "A Wordpress website I made for a friend to gain experience. This site is actively used for her business of Italian language tutoring.",
+            "link": "https://italianonthespot.com"
+        },
+        {
+            "id": 3,
+            "image": "focus-card.jpg",
+            "title": "FOCUS",
+            "type": "Wordpress",
+            "description": "A Wordpress website I made for a school project. From this site a video project can also be accessed which was edited by me, using Adobe.",
+            "link": "https://focusrecovery.wordpress.com"
+        }
+    ]
+}

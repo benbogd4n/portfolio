@@ -1,0 +1,53 @@
+{
+    "certificates": [
+        {
+            "id": 1,
+            "logo": "Udemy-Logo.png",
+            "name": "Udemy Vue.js Course",
+            "link": "https://www.udemy.com/certificate/UC-ec8f8e4b-570b-43c0-86f5-daba3581e5cb/",
+            "message": "Show certificate"
+        },
+        {
+            "id": 2,
+            "logo": "codecademy-logo.png",
+            "name": "Codecademy Vue.js Course",
+            "link": "https://www.codecademy.com/profiles/beefcode69/certificates/db927a84bf4bba96bb285ee6a85466fc",
+            "message": "Show certificate"
+        },
+        {
+            "id": 3,
+            "logo": "codecademy-logo.png",
+            "name": "Learn Swift Course",
+            "link": "https://www.codecademy.com/profiles/beefcode69/certificates/604255fe3d6454000dce1f3e",
+            "message": "Show certificate"
+        },
+        {
+            "id": 4,
+            "logo": "codecademy-logo.png",
+            "name": "Learn JavaScript",
+            "link": "https://www.codecademy.com/profiles/beefcode69/certificates/705dcb15de0da4dd9d9fc4f3274b430e",
+            "message": "Show certificate"
+        },
+        {
+            "id": 5,
+            "logo": "codecademy-logo.png",
+            "name": "Build a Website with HTML, CSS",
+            "link": "https://www.codecademy.com/profiles/beefcode69/certificates/5cadfefe5f1de806e9704577",
+            "message": "Show certificate"
+        },
+        {
+            "id": 6,
+            "logo": "codecademy-logo.png",
+            "name": "Learn Sass",
+            "link": "https://www.codecademy.com/profiles/beefcode69/certificates/eb1ffda40f347629dcef6de33d3f9741",
+            "message": "Show certificate"
+        },
+        {
+            "id": 6,
+            "logo": "codecademy-logo.png",
+            "name": "Career Path: Front-End Engineer",
+            "link": "https://www.codecademy.com/learn/paths/front-end-engineer-career-path",
+            "message": "Show course, certificate in progress..."
+        }
+    ]
+}

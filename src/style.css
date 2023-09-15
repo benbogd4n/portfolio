@@ -1,89 +1,196 @@
+/* ==========================================================================
+    Desktop Styles
+    ========================================================================== */
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  /* ==========================================================================
+   Variables
+  ========================================================================== */
+    /* Element colors
+    ========================================================================== */
+    --element-primary: #58595B;
+    --element-secondary: #313232;
+    --tertiary-light: #908f92;
+    --tertiary-dark: #494b4b;
+    --background-light: #d6d5d8;
+    --background-dark: #313232;
+    /* Text colors
+    ========================================================================== */
+    --text-primary: #d6d5d8;
+    --text-secondary: #313232;
+    --text-title: #646cff;
+    --hyperlink: #646cff;
+    --linkhover: #71a5ff;
+    /* Desktop font sizes
+    ========================================================================== */
+    --title-one: 8rem;
+    --title-two: 5.32rem;
+    --header: 1.8rem;
+    --large: 1.3rem;
+    --medium: 1.1rem;
+    --small: 1rem;
+    /* Mobile font sizes
+    ========================================================================== */
+    --mobile-large: 1.3rem;
+    --mobile-medium: 1rem;
+    --mobile-small: 0.8rem;
+    /* Font family
+    ========================================================================== */
+    --font: Helvetica, Arial, sans-serif;
+    /* Font weight
+    ========================================================================== */
+    --bold: 700;
+    --semibold: 500;
+  /* ==========================================================================
+   Root Global
+  ========================================================================== */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+html, body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  font-family: var(--font);
+  font-weight: var(--regular);
+  font-size: var(--medium);
+  line-height: 1.5;
+}
+
+a {
+  font-size: var(--medium);
+  font-weight: var(--bold);
+  color: var(--hyperlink);
+  text-decoration: none;
+  transition: color 1s;
+}
+a:hover {
+  color: var(--linkhover);
+}
+
+img{
+  max-width: 5rem;
+  max-height: 5rem;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  font-size: var(--title-one);
+  color: var(--element-secondary);
+}
+
+h2 {
+  margin: 0;
+  padding: 0 4px;
+  font-size: var(--title-two);
+  color: var(--element-primary);
+}
+
+h3 {
+  font-size: var(--header);
+  color: var(--text-title);
+}
+
+p {
+  color: var(--text);
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
 }
 
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  padding: 0.4em 1.2em;
+  font-size: var(--small);
+  font-weight: var(--bold);
+  background-color: var(--background-light);
+  color: var(--tertiary-light);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: color 1s;
 }
 button:hover {
-  border-color: #646cff;
+  color: var(--hyperlink);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.card {
-  padding: 2em;
-}
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* ==========================================================================
+    Mobile Styles
+    ========================================================================== */
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@media (max-width: 87em) {
+  html, body {
+    font-size: var(--mobile-medium);
+    line-height: 1.5;
   }
-  a:hover {
-    color: #747bff;
+  
+  a {
+    font-size: var(--mobile-medium);
   }
+  
+  img{
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: var(--title-one);
+    color: var(--element-secondary);
+  }
+  
+  h2 {
+    margin: 0;
+    padding: 0 4px;
+    font-size: var(--title-two);
+    color: var(--element-primary);
+  }
+  
+  h3 {
+    font-size: var(--header);
+    color: var(--text-title);
+  }
+  
+  p {
+    color: var(--text);
+  }
+  
+  li {
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
   button {
-    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.4em 1.2em;
+    font-size: var(--small);
+    font-weight: var(--bold);
+    background-color: var(--background-light);
+    color: var(--tertiary-light);
+    cursor: pointer;
+    transition: color 1s;
+  }
+  button:hover {
+    color: var(--hyperlink);
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
   }
 }
